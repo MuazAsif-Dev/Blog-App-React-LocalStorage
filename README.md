@@ -1,32 +1,23 @@
-# Project-2
+# A Blog App created using React
 
-## A Blog App created using React
-
-You are required to implement the following requirements:
-
-> **Note:** It is advised to use React’s Functional Components. The operations will mostly be in memory if not stated otherwise. You are required to call mentioned endpoints to initialize the state.
+**Note:** The operations are in memory except for the Unsplash search image. Jsonplaceholder's endpoints are used to initialize the state.
 
 ### Modules:
 
 1. Users:
 
-   - Create an authentication page where users can sign in and sign up.
-   - Users should have a name, email and password.
+   - An authentication page where users can sign in and sign up.
+   - Users have a username and password.
 
 2. Posts:
-   - A post should have a title.
-   - A post should have its content.
-   - The user can create a post.
-   - The user can edit his/her post.
-   - The user can delete his/her post.
-   - Create a posts page where all posts can be seen.
+   - Posts have a title and content.
+   - The user can create, edit and delete their posts.
+   - All posts from all users would be displayed on the home screen.
 
-> **Note:** You are required to initialize the posts state by calling the following api endpoint: https://jsonplaceholder.typicode.com/posts
+> **Note:** The post's state is initialized by calling the following api endpoint: https://jsonplaceholder.typicode.com/posts
 
 3. Comments:
    - A post can have many comments.
-   - Only authorized users can comment on the post.
-   - The user can edit his/her own comment.
-   - The user can delete his/her own comment.
+   - The user can create, edit and delete their comments.
 
-> **Note:** You are required to initialize the comments for each fetched post by the calling following api endpoint accordingly: https://jsonplaceholder.typicode.com/posts/{$postId}/comments
+> **Note:** The comment's state for each fetched post is initialized by calling the following api endpoint: https://jsonplaceholder.typicode.com/posts/{$postId}/comments
