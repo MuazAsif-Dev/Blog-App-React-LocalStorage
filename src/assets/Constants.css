@@ -1,0 +1,32 @@
+:root {
+  /* Color Constants */
+  --accent-color: rgb(26, 154, 135);
+
+  --warning-color: rgb(189, 13, 13);
+
+  --bg-color-light: #fff;
+
+  --text-color: #222;
+  --text-color-light: #333;
+  --text-color-lighter: #888;
+
+  --link-color: #222;
+
+  --active-selection-color: blue;
+
+  --btn-color-dark: #555;
+  --btn-color-warning: var(--warning-color);
+
+  --border-color-light: #ddd;
+  --border-color-dark: black;
+  --shadow-color: #000000b3;
+
+  /* Size Constants */
+  --container-max-width: 1600px;
+}
+
+#edit-action-svg,
+#delete-action-svg {
+  height: 20px;
+  margin-bottom: 4px;
+}

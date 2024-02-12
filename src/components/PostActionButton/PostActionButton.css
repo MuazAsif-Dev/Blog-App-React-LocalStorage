@@ -1,0 +1,21 @@
+.post-action {
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.post-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--bg-color-light);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.edit-action {
+  background-color: var(--text-color-light);
+}
+.delete-action {
+  background-color: var(--btn-color-warning);
+}

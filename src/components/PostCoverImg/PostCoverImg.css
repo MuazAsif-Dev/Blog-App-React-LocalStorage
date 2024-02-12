@@ -1,0 +1,10 @@
+.post-cover-img-container {
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.post-cover-img {
+  object-fit: cover;
+  object-position: center center;
+}

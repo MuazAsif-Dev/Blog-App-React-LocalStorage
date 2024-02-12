@@ -1,0 +1,20 @@
+.post-metadata-title {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.post-metadata-time {
+  text-align: center;
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  color: var(--text-color-lighter);
+}
+
+.post-metadata-author {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

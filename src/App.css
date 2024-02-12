@@ -1,0 +1,39 @@
+@import url("../src/assets/Constants.css");
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+.home-user-span {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.full-post-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.full-post-comments-container {
+  display: grid;
+  gap: 15px;
+  justify-items: center;
+  grid-template-columns: 1fr;
+}
+
+.full-post-comments-new {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}

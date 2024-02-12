@@ -1,0 +1,33 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  box-shadow: 3px 3px var(--shadow-color);
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.nav-links {
+  color: var(--accent-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 9px 18px;
+}
+
+.nav-links:hover {
+  border-radius: 5px;
+  color: inherit;
+  background-color: var(--bg-color-light);
+  box-shadow: 2px 2px var(--shadow-color);
+}
